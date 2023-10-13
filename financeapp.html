@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance App</title>
+    <script  src = 'finance.js'></script>
+</head>
+<body>
+    <input id = 'In/Ex' type="text" placeholder="Enter Income/Expense">
+    <input id = 'amount' type="tel" placeholder="Enter any Amount">
+    <button onclick="income()" >Add Income</button>
+    <button onclick="expense()">Add Expense</button>
+    <table  border="1">
+        <tbody id="tbody">
+        <tr id='header-row'>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Type</th>
+            </tr>
+        </tbody>
+        <tr id='total-row'>
+            <td><b>Total</b></td>
+            <td id="total">adasd</td>
+            <td></td>
+            </tr>
+    </table>
+    
+</body>
+</html>

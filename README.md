@@ -1,1 +1,1 @@
-echo "# JSassignment"
+echo "# JS Project"
